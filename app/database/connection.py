@@ -1,4 +1,4 @@
-The 7 tables (Solution Design Document, section 6):
+    The 7 tables (Solution Design Document, section 6):
     users          the 4 people who may use the service and their role
     rule_versions  the SETTINGS of pivot_je.py used by a run - a change adds a new version
     runs           one row per click on Run: who, when, which month, the counts, the master file
