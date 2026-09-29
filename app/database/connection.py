@@ -1,10 +1,4 @@
-"""
-app/database/connection.py - opening the database and creating the 7 tables
-============================================================================
-SQLite is built into Python ("import sqlite3"): nothing to install, no database server.
-The whole database is one file: config.DB_PATH (revenue_je.sqlite3 in the project folder).
-
-The 7 tables (Solution Design Document, section 6):
+    The 7 tables (Solution Design Document, section 6):
     users          the 4 people who may use the service and their role
     rule_versions  the SETTINGS of pivot_je.py used by a run - a change adds a new version
     runs           one row per click on Run: who, when, which month, the counts, the master file
