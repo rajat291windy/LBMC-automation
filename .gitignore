@@ -1,0 +1,8 @@
+# Made by the service or by Python - not part of the code
+.venv/
+__pycache__/
+*.sqlite3*
+.secret_key
+output/*
+!output/README.txt
+# Never put real LBMC files in Git: only dummy data in data/

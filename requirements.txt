@@ -1,0 +1,13 @@
+# The packages to install:  python -m pip install -r requirements.txt
+# The calculation (engine/pivot_je.py)
+pandas>=2.0
+openpyxl>=3.1
+# The service
+fastapi>=0.115
+uvicorn>=0.30
+jinja2>=3.1
+python-multipart>=0.0.9
+itsdangerous>=2.1
+# Only for the tests
+httpx2
+pytest
